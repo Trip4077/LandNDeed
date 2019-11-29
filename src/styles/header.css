@@ -1,0 +1,48 @@
+.header {
+    /* Background Image */
+    background-image: url("../assets/bg-header.jpg");
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+
+    /* Flexbox */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    /* Text Style */
+    font-size: 10rem;
+    text-shadow: 0 0 12px #000000, 0 0 8px #000000, 0 0 6px #000000;
+    letter-spacing: 3px;
+
+    color: white;
+
+    /* Position */
+    margin-top: 25px;
+}
+
+.header p {
+    font-size: 4.6rem;
+    letter-spacing: 2px;
+    text-shadow: 0 0 12px #000000, 0 0 8px #000000, 0 0 6px #000000;
+    margin:50px;
+    color: white;
+}
+
+#cta-btn {
+    width: 175px;
+    height: 40px;
+    box-shadow: 0 0 0px 0px rgba(32, 32, 32, 0.6);
+    margin-top: 15px;
+}
+
+#cta-btn span {
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+}
